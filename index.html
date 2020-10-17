@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music-Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Vollkorn+SC:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main-page">
+<div class="navbar">
+    <div class="left">
+    <a href="">Instrument</a>
+    <a href="">Acsesorise</a>
+    <a href="">Blog</a>
+    </div>
+    <div class="right">
+        <label>
+        <input placeholder="Search:">
+        </label>
+        <a href="signIn.html">Acount</a>
+        <a href="">Basket</a>
+    </div>
+</div>
+    <div class="container">
+        <button id="sort-asc">Цена возрастание</button>
+        <button id="sort-desc">Цена убывание</button>
+        <button id="sort-rating">Sort rating</button>
+
+        <div class="clearfix"></div>
+        <hr>
+        <div class="goods-wrap">
+
+            <div class="goods-card" data-price="150" data-rating="3" id="mus_1">
+                <img src="assetc/image_ctalog/gitara1.jpg" alt="">
+                <div class="img-container"></div>
+                <div id="jp"></div>
+                <h1>Gitara FZX231</h1>
+                <p>150 usd</p>
+                <audio>
+                    <source src="assetc/image_ctalog/rock-guitar_gkj6h4ho.mp3">
+                </audio> <audio><source type="audio/mpeg" src="https://zvukipro.com/uploads/files/2018-12/1543941668_rock-guitar_gkj6h4ho.mp3"></audio>
+                <button  class="buy" onclick="this.previousElementSibling.play()"> vep</button>
+                <button class="buy">buy</button>
+            </div>
+
+            <div class="goods-card" data-price="110" data-rating="3">
+                <img src="assetc/image_ctalog/gitara2.jpg" alt="">
+                <h1>Gitara FZX231 Silver-Black</h1>
+                <p>110 usd</p>
+                <audio><source type="audio/mpeg" src="https://zvukipro.com/uploads/files/2018-12/1543941668_rock-guitar_gkj6h4ho.mp3"></audio>
+                <button  class="buy" onclick="this.previousElementSibling.play()"> vep</button>
+
+                <button class="buy">buy</button>
+            </div>
+
+            <div class="goods-card" data-price="310" data-rating="10">
+                <img src="assetc/image_ctalog/gitara3.jpg" alt="">
+                <h1>Gitara FZ6H Silver-Black</h1>
+                <p>310 usd</p>
+                </audio> <audio><source type="audio/mpeg" src="https://zvukipro.com/uploads/files/2018-12/1543941668_rock-guitar_gkj6h4ho.mp3"></audio>
+                <button  class="buy" onclick="this.previousElementSibling.play()"> vep</button>
+                <button class="buy">buy</button>
+            </div>
+
+            <div class="goods-card" data-price="168" data-rating="3">
+                <img src="assetc/image_ctalog/gitara4.jpg" alt="">
+                <h1>Gitara  24MK600M</h1>
+                <p>168 usd</p>
+                </audio> <audio><source type="audio/mpeg" src="https://zvukipro.com/uploads/files/2018-12/1543941668_rock-guitar_gkj6h4ho.mp3"></audio>
+                <button  class="buy" onclick="this.previousElementSibling.play()"> vep</button>
+                <button class="buy">buy</button>
+            </div>
+
+            <div class="goods-card" data-price="138" data-rating="3">
+                <img src="assetc/image_ctalog/gitara5.jpg" alt="">
+                <h1>Монітор 24" Samsung S24D300HS</h1>
+                <p>138 usd</p>
+                </audio> <audio><source type="audio/mpeg" src="https://zvukipro.com/uploads/files/2018-12/1543941668_rock-guitar_gkj6h4ho.mp3"></audio>
+                <button  class="buy" onclick="this.previousElementSibling.play()"> vep</button>
+                <button class="buy">buy</button>
+            </div>
+
+            <div class="goods-card" data-price="82" data-rating="9">
+                <img src="assetc/image_ctalog/gitara6.jpg" alt="">
+                <h1>Gitara FZX231V196HQLAb</h1>
+                <p>82 usd</p>
+                </audio> <audio><source type="audio/mpeg" src="https://zvukipro.com/uploads/files/2018-12/1543941668_rock-guitar_gkj6h4ho.mp3"></audio>
+                <button  class="buy" onclick="this.previousElementSibling.play()"> vep</button>
+                <button class="buy">buy</button>
+            </div>
+
+            <div class="goods-card" data-price="220" data-rating="8">
+                <img src="assetc/image_ctalog/gitara7.jpg" alt="">
+                <h1>Gitara FZX2G248QZ </h1>
+                <p>220 usd</p>
+                </audio> <audio><source type="audio/mpeg" src="https://zvukipro.com/uploads/files/2018-12/1543941668_rock-guitar_gkj6h4ho.mp3"></audio>
+                <button  class="buy" onclick="this.previousElementSibling.play()"> vep</button>
+                <button class="buy">buy</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="sorted_menu.js">
+
+    </script>
+</body>
+</html>
